@@ -11,12 +11,29 @@
 		5B9CC53F281DE935006D4B69 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9CC53E281DE935006D4B69 /* Tests_iOSLaunchTests.swift */; };
 		5B9CC549281DE935006D4B69 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9CC548281DE935006D4B69 /* Tests_macOS.swift */; };
 		5B9CC54B281DE935006D4B69 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9CC54A281DE935006D4B69 /* Tests_macOSLaunchTests.swift */; };
-		5B9CC54C281DE935006D4B69 /* RestAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9CC524281DE934006D4B69 /* RestAppApp.swift */; };
-		5B9CC54D281DE935006D4B69 /* RestAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9CC524281DE934006D4B69 /* RestAppApp.swift */; };
-		5B9CC54E281DE935006D4B69 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9CC525281DE934006D4B69 /* ContentView.swift */; };
-		5B9CC54F281DE935006D4B69 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9CC525281DE934006D4B69 /* ContentView.swift */; };
+		5B9CC54C281DE935006D4B69 /* RestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9CC524281DE934006D4B69 /* RestApp.swift */; };
+		5B9CC54D281DE935006D4B69 /* RestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9CC524281DE934006D4B69 /* RestApp.swift */; };
+		5B9CC54E281DE935006D4B69 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9CC525281DE934006D4B69 /* MainView.swift */; };
+		5B9CC54F281DE935006D4B69 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9CC525281DE934006D4B69 /* MainView.swift */; };
 		5B9CC550281DE935006D4B69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B9CC526281DE935006D4B69 /* Assets.xcassets */; };
 		5B9CC551281DE935006D4B69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B9CC526281DE935006D4B69 /* Assets.xcassets */; };
+		5B9CC562281DE962006D4B69 /* RestApi in Frameworks */ = {isa = PBXBuildFile; productRef = 5B9CC561281DE962006D4B69 /* RestApi */; };
+		5B9CC568281DF139006D4B69 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9CC567281DF139006D4B69 /* Post.swift */; };
+		5B9CC569281DF139006D4B69 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9CC567281DF139006D4B69 /* Post.swift */; };
+		5B9CC56C281DF2FB006D4B69 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9CC56B281DF2FB006D4B69 /* BaseService.swift */; };
+		5B9CC56D281DF2FB006D4B69 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9CC56B281DF2FB006D4B69 /* BaseService.swift */; };
+		5B9CC56F281DF385006D4B69 /* PostsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9CC56E281DF385006D4B69 /* PostsService.swift */; };
+		5B9CC570281DF385006D4B69 /* PostsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9CC56E281DF385006D4B69 /* PostsService.swift */; };
+		5B9CC572281DF794006D4B69 /* PostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9CC571281DF794006D4B69 /* PostsView.swift */; };
+		5B9CC573281DF794006D4B69 /* PostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9CC571281DF794006D4B69 /* PostsView.swift */; };
+		5B9CC575281DFB55006D4B69 /* PhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9CC574281DFB55006D4B69 /* PhotosView.swift */; };
+		5B9CC576281DFB55006D4B69 /* PhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9CC574281DFB55006D4B69 /* PhotosView.swift */; };
+		5B9CC578281DFBC7006D4B69 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9CC577281DFBC7006D4B69 /* Photo.swift */; };
+		5B9CC579281DFBC7006D4B69 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9CC577281DFBC7006D4B69 /* Photo.swift */; };
+		5B9CC57B281DFC03006D4B69 /* PhotosService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9CC57A281DFC03006D4B69 /* PhotosService.swift */; };
+		5B9CC57C281DFC03006D4B69 /* PhotosService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9CC57A281DFC03006D4B69 /* PhotosService.swift */; };
+		5B9CC57E281EFB99006D4B69 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9CC57D281EFB99006D4B69 /* PostView.swift */; };
+		5B9CC57F281EFB99006D4B69 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9CC57D281EFB99006D4B69 /* PostView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +54,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5B9CC524281DE934006D4B69 /* RestAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestAppApp.swift; sourceTree = "<group>"; };
-		5B9CC525281DE934006D4B69 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5B9CC524281DE934006D4B69 /* RestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestApp.swift; sourceTree = "<group>"; };
+		5B9CC525281DE934006D4B69 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		5B9CC526281DE935006D4B69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B9CC52B281DE935006D4B69 /* RestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B9CC531281DE935006D4B69 /* RestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +66,14 @@
 		5B9CC544281DE935006D4B69 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B9CC548281DE935006D4B69 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		5B9CC54A281DE935006D4B69 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		5B9CC567281DF139006D4B69 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		5B9CC56B281DF2FB006D4B69 /* BaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
+		5B9CC56E281DF385006D4B69 /* PostsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsService.swift; sourceTree = "<group>"; };
+		5B9CC571281DF794006D4B69 /* PostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsView.swift; sourceTree = "<group>"; };
+		5B9CC574281DFB55006D4B69 /* PhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosView.swift; sourceTree = "<group>"; };
+		5B9CC577281DFBC7006D4B69 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		5B9CC57A281DFC03006D4B69 /* PhotosService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosService.swift; sourceTree = "<group>"; };
+		5B9CC57D281EFB99006D4B69 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B9CC562281DE962006D4B69 /* RestApi in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,9 +123,14 @@
 		5B9CC523281DE934006D4B69 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				5B9CC524281DE934006D4B69 /* RestAppApp.swift */,
-				5B9CC525281DE934006D4B69 /* ContentView.swift */,
+				5B9CC566281DF128006D4B69 /* Model */,
+				5B9CC56A281DF2E2006D4B69 /* Services */,
 				5B9CC526281DE935006D4B69 /* Assets.xcassets */,
+				5B9CC524281DE934006D4B69 /* RestApp.swift */,
+				5B9CC525281DE934006D4B69 /* MainView.swift */,
+				5B9CC574281DFB55006D4B69 /* PhotosView.swift */,
+				5B9CC571281DF794006D4B69 /* PostsView.swift */,
+				5B9CC57D281EFB99006D4B69 /* PostView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -141,6 +172,25 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		5B9CC566281DF128006D4B69 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B9CC577281DFBC7006D4B69 /* Photo.swift */,
+				5B9CC567281DF139006D4B69 /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5B9CC56A281DF2E2006D4B69 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5B9CC56B281DF2FB006D4B69 /* BaseService.swift */,
+				5B9CC57A281DFC03006D4B69 /* PhotosService.swift */,
+				5B9CC56E281DF385006D4B69 /* PostsService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -157,6 +207,9 @@
 			dependencies = (
 			);
 			name = "RestApp (iOS)";
+			packageProductDependencies = (
+				5B9CC561281DE962006D4B69 /* RestApi */,
+			);
 			productName = "RestApp (iOS)";
 			productReference = 5B9CC52B281DE935006D4B69 /* RestApp.app */;
 			productType = "com.apple.product-type.application";
@@ -249,6 +302,9 @@
 				Base,
 			);
 			mainGroup = 5B9CC51E281DE934006D4B69;
+			packageReferences = (
+				5B9CC560281DE962006D4B69 /* XCRemoteSwiftPackageReference "restapi" */,
+			);
 			productRefGroup = 5B9CC52C281DE935006D4B69 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -299,8 +355,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B9CC54E281DE935006D4B69 /* ContentView.swift in Sources */,
-				5B9CC54C281DE935006D4B69 /* RestAppApp.swift in Sources */,
+				5B9CC578281DFBC7006D4B69 /* Photo.swift in Sources */,
+				5B9CC57B281DFC03006D4B69 /* PhotosService.swift in Sources */,
+				5B9CC54E281DE935006D4B69 /* MainView.swift in Sources */,
+				5B9CC54C281DE935006D4B69 /* RestApp.swift in Sources */,
+				5B9CC572281DF794006D4B69 /* PostsView.swift in Sources */,
+				5B9CC575281DFB55006D4B69 /* PhotosView.swift in Sources */,
+				5B9CC56C281DF2FB006D4B69 /* BaseService.swift in Sources */,
+				5B9CC568281DF139006D4B69 /* Post.swift in Sources */,
+				5B9CC57E281EFB99006D4B69 /* PostView.swift in Sources */,
+				5B9CC56F281DF385006D4B69 /* PostsService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,8 +372,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B9CC54F281DE935006D4B69 /* ContentView.swift in Sources */,
-				5B9CC54D281DE935006D4B69 /* RestAppApp.swift in Sources */,
+				5B9CC579281DFBC7006D4B69 /* Photo.swift in Sources */,
+				5B9CC57C281DFC03006D4B69 /* PhotosService.swift in Sources */,
+				5B9CC54F281DE935006D4B69 /* MainView.swift in Sources */,
+				5B9CC54D281DE935006D4B69 /* RestApp.swift in Sources */,
+				5B9CC573281DF794006D4B69 /* PostsView.swift in Sources */,
+				5B9CC576281DFB55006D4B69 /* PhotosView.swift in Sources */,
+				5B9CC56D281DF2FB006D4B69 /* BaseService.swift in Sources */,
+				5B9CC569281DF139006D4B69 /* Post.swift in Sources */,
+				5B9CC57F281EFB99006D4B69 /* PostView.swift in Sources */,
+				5B9CC570281DF385006D4B69 /* PostsService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -701,6 +773,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5B9CC560281DE962006D4B69 /* XCRemoteSwiftPackageReference "restapi" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RxDx/restapi";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5B9CC561281DE962006D4B69 /* RestApi */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5B9CC560281DE962006D4B69 /* XCRemoteSwiftPackageReference "restapi" */;
+			productName = RestApi;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5B9CC51F281DE934006D4B69 /* Project object */;
 }
