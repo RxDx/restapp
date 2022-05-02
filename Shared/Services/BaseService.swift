@@ -10,6 +10,6 @@ import RestApi
 
 class BaseService<T: Codable>: RestApi<T> {
     init(path: String) {
-        super.init(baseUrl: "https://jsonplaceholder.typicode.com", path: path)
+        super.init(baseUrl: "https://jsonplaceholder.typicode.com", path: path, debug: true)
     }
 }
